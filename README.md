@@ -56,6 +56,13 @@ $ npm run start
 
 Feel free to test the endpoints present in the API, using a tool like [Postman](https://www.postman.com/downloads/).
 
+### Test the API
+
+As mentioned before, the API was deployed using the hosting service [Render](https://render.com/). The endpoints can be tested online here:
+
+- [Products](https://kick-store-api-danielv1213.onrender.com/products-request/products)
+- [Special prices](https://kick-store-api-danielv1213.onrender.com/products-request/price/1001/Nike/SuperJordan)
+
 ## Thats all!
 
 Now you can enjoy the best kicks API in LATAM.
