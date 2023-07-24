@@ -13,12 +13,14 @@ The structure of the project was made based on **MVC** architecture; where the *
 ## How to use
 
 ### Install all requirements
+
 To clone and run this project, you will need to install:
 
 - [Git](https://git-scm.com/) (comes with [npm](https://www.npmjs.com/))
 - [Node.js](https://nodejs.org/en/download/) (comes with [npm](https://www.npmjs.com/))
 
 When you complete all the installations, you can clone the repository and install the dependencies:
+
 ```bash
 # Clone this repository
 $ git clone https://github.com/danielV1213/kick-store-api
@@ -32,6 +34,8 @@ $ npm install
 
 ## Configure environment variables
 
+Disclaimer: due to the use of the hosting service [Render](https://render.com/) in this API, the MongoDB URL had to be uncovered. But the proper and secure process involves creating a .env file for storing this kind of information.
+
 Create an environment file called **.env** in the root of the project and create and assign the following env variables:
 
 ```javascript
@@ -40,6 +44,7 @@ MONGO_URL= //Url used to connect to the MongoDB database. Don't forget to add th
 ```
 
 ### Run the projects
+
 Once you've completed all the configurations, you can run the project:
 
 ```bash
@@ -48,7 +53,9 @@ $ npm run start
 ```
 
 ### Test endpoints manually
+
 Feel free to test the endpoints present in the API, using a tool like [Postman](https://www.postman.com/downloads/).
 
 ## Thats all!
+
 Now you can enjoy the best kicks API in LATAM.
